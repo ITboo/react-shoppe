@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Lira Earrings" ,
+        "img": "/assets/img/lira.jpg",
+        "price": 20
+    },
+    {
+        "id": 2,
+        "title": "Hal Earrings" ,
+        "img": "/assets/img/hal.jpg",
+        "price": 25
+    },
+    {
+        "id": 3,
+        "title": "Kaede Hair Pin Set Of 3 " ,
+        "img": "/assets/img/kaede.jpg",
+        "price": 30
+    },
+    {
+        "id": 1,
+        "title": "Lira Earrings" ,
+        "img": "/assets/img/lira.jpg",
+        "price": 20
+    },
+    {
+        "id": 2,
+        "title": "Hal Earrings" ,
+        "img": "/assets/img/hal.jpg",
+        "price": 25
+    },
+    {
+        "id": 3,
+        "title": "Kaede Hair Pin Set Of 3 " ,
+        "img": "/assets/img/kaede.jpg",
+        "price": 30
+    }
+]

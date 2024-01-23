@@ -1,0 +1,14 @@
+.footer{
+    border-top: 1px solid grey;
+}
+
+.footer__top{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.footer__menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
