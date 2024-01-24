@@ -1,18 +1,17 @@
 import product from "../../data/items.json";
-import './CardList.css'
+import Card from "./Card";
+
+import "./CardList.css";
+
 const CardList = () => {
   return (
     <>
-    <span className="list__title">Shop The Latest</span>
-    <div className="list">
-      {product.map((item) => (
-        <div className="list__item">
-          <img src={item.img} alt={item.title} />
-          <span>{item.title}</span>
-          <span>$ {item.price}.00</span>
-        </div>
-      ))}
-    </div>
+      <span className="list__title">Shop The Latest</span>
+      <div className="list">
+        {product.map((item) => (
+          <Card img={item.img} title={item.title} price={item.price} />
+        ))}
+      </div>
     </>
   );
 };
