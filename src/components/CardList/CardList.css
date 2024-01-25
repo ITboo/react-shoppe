@@ -9,4 +9,22 @@
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-top: 30px;
+}
+.info__description{
+    display: flex;
+    flex-direction: column;
+}
+
+.list__item-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.addedToCart{
+    background: green;
+}
+.notAddedToCart{
+    background: rgb(128, 0, 0);
 }

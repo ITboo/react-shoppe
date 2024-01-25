@@ -10,3 +10,7 @@ header>nav>ul{
     gap: 20px;
 
 }
+
+.cart-btn{
+    cursor: pointer;
+}

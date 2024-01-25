@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from 'react-router-dom';
 import './Footer.css'
 
 const Footer = () => {
@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="footer__top">
         <nav>
           <ul className="footer__menu">
-            <li>CONTACT</li>
-            <li>TERMS OF SERVICES</li>
-            <li>SHIPPING AND RETURNS</li>
+            <Link to='/contact'>CONTACT</Link>
+            <Link to ='/terms'>TERMS OF SERVICES</Link>
+            <Link to='/shipping'>SHIPPING AND RETURNS</Link>
           </ul>
         </nav>
         <input type="email" name="" id="" />

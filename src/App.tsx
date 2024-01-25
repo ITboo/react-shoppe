@@ -1,21 +1,25 @@
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
-import Banner from "./components/Banner/Banner";
-import CardList from "./components/CardList/CardList";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
+
+import Layout from "./components/Layout";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+import Policy from "./pages/Policy";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <main className="main">
-        <Banner />
-
-        <CardList/>
-      </main>
-      <Footer/>
-    </>
-  );
+  return(
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path='policy' element={<Policy />}></Route>
+        <Route path="*" element={<NotFound />} />
+      </Route>
+    </Routes>
+  </BrowserRouter>
+  )
 }
 
 export default App;
