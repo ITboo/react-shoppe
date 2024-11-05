@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.png";
-import cart from "../../assets/svg/cart.svg";
 
 import "./Header.css";
+import { Search, ShoppingCart, UserRound } from "lucide-react";
 
 const Header = () => {
   return (
@@ -13,8 +13,11 @@ const Header = () => {
           <Link to='/shop'>Shop</Link>
           <Link to='/blog'>Blog</Link>
           <Link to='/about'>About us</Link>
+          <span>|</span>
+          <Search />
+          <UserRound />
           <Link to='/cart'>
-            <img src={cart} alt="cart" className="cart-btn"/>
+          <ShoppingCart />
           </Link>
         </ul>
       </nav>

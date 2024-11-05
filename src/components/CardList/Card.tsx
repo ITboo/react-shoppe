@@ -1,5 +1,6 @@
 import React from "react";
 import "./CardList.css";
+import { ShoppingCart } from "lucide-react";
 
 interface CardProps {
   img: string;
@@ -17,13 +18,13 @@ const Card = (props: CardProps) => {
       <div className="list__item-info">
         <div className="info__description">
           <span>{props.title}</span>
-          <span>$ {props.price}.00</span>
+          <span className="price">$ {props.price}.00</span>
         </div>
         <button
           className={isAdded ? "addedToCart" : "notAddedToCart"}
           onClick={handleAdd}
         >
-          +
+          <ShoppingCart />
         </button>
       </div>
     </div>

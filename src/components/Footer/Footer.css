@@ -1,14 +1,40 @@
-.footer{
-    border-top: 1px solid grey;
+.footer {
+  padding: 40px 0;
+  border-top: 1px solid rgba(128, 128, 128, 0.5);
 }
 
-.footer__top{
-display: flex;
-justify-content: space-between;
-align-items: center;
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
 }
-.footer__menu{
-    display: flex;
-    gap: 20px;
-    list-style: none;
+.footer__menu {
+
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.subscribe__form {
+  border-bottom: 1px solid black;
+  display: flex;
+  gap: 40px;
+}
+
+.subscribe__input {
+  outline: none;
+  width: 200px;
+  padding: 6px;
+  border: none;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__socials {
+  display: flex;
+  gap: 20px;
 }
