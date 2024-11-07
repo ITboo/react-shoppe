@@ -1,0 +1,33 @@
+.banner {
+  padding-left: 40px;
+  background-image: url("/assets/img/banner.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 646px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.banner__info {
+  color: white;
+  width: 395px;
+  text-align: left;
+}
+.banner__title {
+  font-size: 33px;
+  margin-bottom: 16px;
+}
+.banner__subtitle {
+  font-size: 26px;
+  margin-bottom: 48px;
+}
+.banner__btn {
+  color: white;
+  width: 193px;
+  padding: 14px 32px;
+  border: solid 1px white;
+  border-radius: 6px;
+}
